@@ -570,6 +570,18 @@ video {
   flex: 1 1 auto;
 }
 
+.content-center {
+  align-content: center;
+}
+
+.content-between {
+  align-content: space-between;
+}
+
+.content-around {
+  align-content: space-around;
+}
+
 .content-baseline {
   align-content: baseline;
 }
