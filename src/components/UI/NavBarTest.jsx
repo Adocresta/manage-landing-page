@@ -1,15 +1,12 @@
-import React from "react";
 import "../../../public/css/main.css";
 
-const NavBar = () => {
+const NavBarTest = () => {
   return (
     <nav className="relative container mx-auto p-6">
       <div className="flex items-center justify-between">
-        {/* logo */}
         <div className="pt-3">
-          <img src="src\img\logo.svg" alt="website-logo" />
+          <img src="src\img\logo.svg" alt="site logo" />
         </div>
-        {/* Menu Items */}
         <div className="hidden md:flex space-x-6">
           <a href="#" className="hover:text-darkGrayishBlue">
             Pricing
@@ -28,9 +25,8 @@ const NavBar = () => {
           </a>
         </div>
         <a
-          href=""
-          // what is baseline?
-          className="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+          href="#"
+          className="hidden md:block text-white bg-brightRed p-3 px-6 pt-2 rounded-full hover:bg-brightRedLight"
         >
           Get Started
         </a>
@@ -39,4 +35,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default NavBarTest;
