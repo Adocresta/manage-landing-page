@@ -1,14 +1,12 @@
 import "../public/css/main.css";
+import HeroSection from "./components/UI/HeroSection";
 import NavBar from "./components/UI/NavBar";
-import NavBarTest from "./components/UI/NavBarTest";
-import NavBarTestFinal from "./components/UI/NavBarTestFinal";
 
 function App() {
   return (
     <div>
-      <NavBarTest />
       <NavBar />
-      <NavBarTestFinal />
+      <HeroSection />
     </div>
   );
 }

@@ -10,7 +10,7 @@ const NavBar = () => {
           <img src="src\img\logo.svg" alt="website-logo" />
         </div>
         {/* Menu Items */}
-        <div className="hidden md:flex space-x-6">
+        <div className="hidden space-x-6 md:flex">
           <a href="#" className="hover:text-darkGrayishBlue">
             Pricing
           </a>
@@ -30,7 +30,7 @@ const NavBar = () => {
         <a
           href=""
           // what is baseline?
-          className="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+          className="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
         >
           Get Started
         </a>
