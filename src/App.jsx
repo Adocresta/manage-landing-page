@@ -1,6 +1,7 @@
 import "../public/css/main.css";
+// Components
 import HeroSection from "./components/UI/HeroSection";
-import HeroSectionTest from "./components/UI/HeroSectionTest";
+import HeroSectionFinal from "./components/UI/HeroSectionFinal";
 import NavBar from "./components/UI/NavBar";
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <div>
       <NavBar />
       <HeroSection />
-      <HeroSectionTest />
+      <HeroSectionFinal />
     </div>
   );
 }

@@ -8,7 +8,7 @@ const HeroSectionTest = () => {
           <h1 className="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
             Bring everyone together to build better products
           </h1>
-          <p className="max-w-sm md:mx-0 sm:mx-auto text-darkGrayishBlue text-center md:text-left">
+          <p className="max-w-sm md:mx-0 mx-auto text-darkGrayishBlue text-center md:text-left">
             Manage makes it simple for software teams to plan day-to-day tasks
             while keeping the larger team goals in view.
           </p>
