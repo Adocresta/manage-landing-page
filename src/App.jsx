@@ -1,7 +1,7 @@
 import "../public/css/main.css";
+import Feature from "./components/UI/Feature";
 // Components
 import HeroSection from "./components/UI/HeroSection";
-import HeroSectionFinal from "./components/UI/HeroSectionFinal";
 import NavBar from "./components/UI/NavBar";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div>
       <NavBar />
       <HeroSection />
-      <HeroSectionFinal />
+      <Feature />
     </div>
   );
 }
